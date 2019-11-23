@@ -1,8 +1,8 @@
 
 Once the webpage of the tapsearch is opened you will see 
-        -a form to enter the documents
-        -a searchbar to search for a word
-        -a button to clear the index 
+        ->a form to enter the documents
+        ->a searchbar to search for a word
+        ->a button to clear the index 
 
 -->First,step is to enter the documents and click index which
    will make the documents converted into a inverted index
