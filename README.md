@@ -13,3 +13,5 @@ Once the webpage of the tapsearch is opened you will see
 -->Finally,If you want to add some other documents, click the 
     button to clear the indexed documents and then we can add
     a new one.
+    
+Note:search your word using lowercase.
