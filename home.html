@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tapsearch</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class ="header">
+            <h1>Tap Search</h1>
+        </div>
+        <div class="box">
+            <h1 class="">Enter the paragraphs to index</h1>
+            <textarea rows="20" cols="50" name="comment" id="userform" placeholder="enter your documents here" class="searchtext1"></textarea> <br><br>
+            <div class="aligncenter">
+                <a onclick="store()" class="button" >index</a>  
+            </div> 
+            <h3><span id='display'></span></h3>     
+        </div>
+        <div class="box">
+            <h1 class="">Enter the word to search</h1>
+            <input type="text" name="firstname" id="userword" placeholder="enter here"class="searchtext"><br><br>
+            <div class="aligncenter">
+                <a onclick="displayresult()" class="button">search</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+            <div id="resultpara"></div>
+    </div>
+    <script src = "js/main.js"></script>
+</body>
+</html>
