@@ -82,7 +82,9 @@ text=text+" ";
  }
 }
 function clearpara(){
-    window.location.reload();
+    document.getElementById('userform').value="";
+    document.getElementById('userword').value="";
+    location.reload();
 }
 function arrange(myArray)
 {
